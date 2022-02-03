@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kotlin_bottom_navigation.fragment.Homefragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/friendFragment"
+        android:name="com.example.kotlin_bottom_navigation.fragment.Friendfragment"
+        android:label="fragment_friend"
+        tools:layout="@layout/fragment_friend" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.kotlin_bottom_navigation.fragment.Musicfragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+</navigation>
